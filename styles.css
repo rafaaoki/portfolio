@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.lista {
+  list-style-type: none;
+}
+
+/* Estilos para o cabeçalho */
+header {
+  background-color: #836fff;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 36px;
+}
+
+header p {
+  margin: 5px 0;
+  font-size: 18px;
+}
+
+/* Estilos para as seções */
+section {
+  background-color: #fff;
+  padding: 30px;
+  margin: 20px auto;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+}
+
+section h2 {
+  margin-top: 0;
+  font-size: 24px;
+  color: #333;
+}
+
+/* Estilos para a tabela de dados pessoais */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table th,
+table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+/* Estilos para os links */
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Estilos para o rodapé */
+footer {
+  background-color: #836fff;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+/* Estilos para a seção de fotos */
+#fotos {
+  background-color: #fff;
+  padding: 30px;
+  margin: 20px auto;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+}
+
+.fotos-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.fotos-container img {
+  max-width: 300px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
